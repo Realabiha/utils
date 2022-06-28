@@ -1,0 +1,32 @@
+{
+  "name": "xytils",
+  "version": "1.0.3",
+  "description": "项目常用js工具函数",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "pack": "webpack",
+    "prepublish": "npx webpack"
+  },
+  "keywords": [
+    "js",
+    "tools"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/plugin-transform-runtime": "^7.18.6",
+    "@babel/preset-env": "^7.18.2",
+    "axios-wx-request": "^1.0.4",
+    "babel-jest": "^28.1.1",
+    "babel-loader": "^8.2.5",
+    "jest": "^28.1.1",
+    "terser-webpack-plugin": "^5.3.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "peerDependencies": {
+    "core-js": "~3.23.3"
+  }
+}
